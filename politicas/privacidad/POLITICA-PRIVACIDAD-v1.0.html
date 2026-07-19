@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Política de Privacidad — Aliun Travel SRL</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --gold:    #B8960C;
+      --gold-lt: #D4AD3A;
+      --dark:    #0D0D0D;
+      --mid:     #1A1A2E;
+      --text:    #E8E6E0;
+      --muted:   #9A9589;
+      --line:    rgba(184,150,12,.25);
+      --serif:   'Georgia', 'Times New Roman', serif;
+      --sans:    'Helvetica Neue', Arial, sans-serif;
+    }
+
+    body {
+      background: var(--dark);
+      color: var(--text);
+      font-family: var(--sans);
+      font-size: 15px;
+      line-height: 1.75;
+      min-height: 100vh;
+    }
+
+    /* ── HEADER ─────────────────────────────────── */
+    header {
+      background: var(--mid);
+      border-bottom: 1px solid var(--line);
+      padding: 28px 40px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .logo-mark {
+      width: 36px; height: 36px;
+      border: 1.5px solid var(--gold);
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+    }
+    .logo-mark svg { width: 18px; height: 18px; fill: var(--gold); }
+
+    .logo-text {
+      font-family: var(--serif);
+      font-size: 15px;
+      letter-spacing: .08em;
+      color: var(--gold-lt);
+    }
+    .logo-text span { display: block; font-size: 10px; color: var(--muted); letter-spacing: .12em; text-transform: uppercase; }
+
+    /* ── HERO ────────────────────────────────────── */
+    .hero {
+      background: linear-gradient(160deg, #11111e 0%, #0D0D0D 100%);
+      border-bottom: 1px solid var(--line);
+      padding: 64px 40px 48px;
+      max-width: 860px;
+      margin: 0 auto;
+    }
+
+    .hero .eyebrow {
+      font-size: 10px;
+      letter-spacing: .2em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 18px;
+    }
+
+    .hero h1 {
+      font-family: var(--serif);
+      font-size: clamp(28px, 5vw, 42px);
+      font-weight: 400;
+      color: #fff;
+      line-height: 1.2;
+      margin-bottom: 16px;
+    }
+
+    .hero .meta {
+      font-size: 12px;
+      color: var(--muted);
+      border-left: 2px solid var(--gold);
+      padding-left: 12px;
+    }
+
+    /* ── CONTENT ─────────────────────────────────── */
+    .content {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 56px 40px 80px;
+    }
+
+    /* Intro box */
+    .intro-box {
+      background: rgba(184,150,12,.06);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 24px 28px;
+      margin-bottom: 48px;
+      font-size: 14px;
+      color: #ccc;
+    }
+
+    /* Sections */
+    section { margin-bottom: 52px; }
+
+    section h2 {
+      font-family: var(--serif);
+      font-size: 20px;
+      font-weight: 400;
+      color: var(--gold-lt);
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--line);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    section h2 .num {
+      font-family: var(--sans);
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: .12em;
+      color: var(--muted);
+    }
+
+    p { margin-bottom: 14px; color: #ccc; }
+    p:last-child { margin-bottom: 0; }
+
+    ul {
+      list-style: none;
+      margin: 14px 0;
+    }
+    ul li {
+      position: relative;
+      padding-left: 20px;
+      margin-bottom: 10px;
+      color: #ccc;
+    }
+    ul li::before {
+      content: '—';
+      position: absolute;
+      left: 0;
+      color: var(--gold);
+      font-size: 12px;
+    }
+
+    /* Rights grid */
+    .rights-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 14px;
+      margin-top: 20px;
+    }
+
+    .right-card {
+      background: rgba(255,255,255,.03);
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 16px 18px;
+    }
+
+    .right-card .right-name {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--gold-lt);
+      letter-spacing: .06em;
+      margin-bottom: 6px;
+    }
+
+    .right-card p {
+      font-size: 13px;
+      margin: 0;
+    }
+
+    /* Contact box */
+    .contact-box {
+      background: var(--mid);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 28px 32px;
+      margin-top: 8px;
+    }
+
+    .contact-box .contact-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      margin-bottom: 12px;
+      font-size: 14px;
+      color: #bbb;
+    }
+    .contact-box .contact-item:last-child { margin-bottom: 0; }
+    .contact-box .contact-item .label {
+      color: var(--gold);
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      width: 90px;
+      flex-shrink: 0;
+      padding-top: 2px;
+    }
+
+    /* ── FOOTER ──────────────────────────────────── */
+    footer {
+      border-top: 1px solid var(--line);
+      padding: 24px 40px;
+      text-align: center;
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    footer a { color: var(--gold); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+
+    @media (max-width: 600px) {
+      header, .hero, .content { padding-left: 20px; padding-right: 20px; }
+      .hero { padding-top: 40px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <div class="logo-mark">
+    <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+  </div>
+  <div class="logo-text">
+    Aliun Travel SRL
+    <span>Agencia de Viajes · República Dominicana</span>
+  </div>
+</header>
+
+<!-- HERO -->
+<div class="hero">
+  <p class="eyebrow">Legal · Documento oficial</p>
+  <h1>Política de Privacidad</h1>
+  <p class="meta">Última actualización: julio de 2026 &nbsp;·&nbsp; Vigente para aliuntravelsrl.com y todos los canales de atención</p>
+</div>
+
+<!-- CONTENT -->
+<div class="content">
+
+  <div class="intro-box">
+    En Aliun Travel SRL valoramos y respetamos tu privacidad. Este documento explica de forma clara qué información recopilamos, para qué la usamos, cómo la protegemos y cuáles son tus derechos. Al utilizar nuestros servicios o comunicarte con nosotros por cualquier canal, aceptas los términos de esta política.
+  </div>
+
+  <!-- 1. Quiénes somos -->
+  <section>
+    <h2><span class="num">01</span> Quiénes somos</h2>
+    <p><strong>Aliun Travel SRL</strong> es una agencia de viajes y operadora turística (OTA/DMC) con domicilio en la República Dominicana, especializada en reservas de hoteles, paquetes turísticos y excursiones dentro del territorio nacional.</p>
+    <ul>
+      <li>Sitio web: <strong>aliuntravelsrl.com</strong></li>
+      <li>Correo: <strong>aliuntravelgroup@gmail.com</strong></li>
+      <li>País de operación: República Dominicana</li>
+    </ul>
+  </section>
+
+  <!-- 2. Información que recopilamos -->
+  <section>
+    <h2><span class="num">02</span> Información que recopilamos</h2>
+    <p>Recopilamos únicamente la información necesaria para procesar tus reservas y brindarte una atención de calidad:</p>
+    <ul>
+      <li><strong>Datos de identidad:</strong> nombre completo, número de documento o pasaporte, nacionalidad.</li>
+      <li><strong>Datos de contacto:</strong> correo electrónico, número de teléfono o WhatsApp.</li>
+      <li><strong>Datos de la reserva:</strong> hotel, fechas de entrada y salida, número de personas, preferencias de habitación y régimen alimenticio.</li>
+      <li><strong>Datos de pago:</strong> registramos abonos y pagos (monto, fecha, método), pero <strong>no almacenamos números de tarjeta de crédito</strong>.</li>
+      <li><strong>Datos de navegación:</strong> información técnica estándar (dirección IP, tipo de navegador, páginas visitadas) a través de cookies.</li>
+    </ul>
+  </section>
+
+  <!-- 3. Cómo usamos tu información -->
+  <section>
+    <h2><span class="num">03</span> Cómo usamos tu información</h2>
+    <p>Utilizamos tu información exclusivamente para:</p>
+    <ul>
+      <li>Procesar y confirmar tus reservas de hotel, excursiones o paquetes.</li>
+      <li>Emitir vouchers y documentos de viaje.</li>
+      <li>Comunicarnos contigo sobre el estado de tu reserva y saldo pendiente.</li>
+      <li>Enviarte recordatorios amables previos a tu fecha de entrada.</li>
+      <li>Mejorar nuestros servicios y atención al cliente.</li>
+      <li>Cumplir con obligaciones legales y fiscales aplicables en la República Dominicana.</li>
+    </ul>
+    <p><strong>No vendemos, arrendamos ni compartimos tu información personal con terceros</strong> con fines comerciales propios de terceros.</p>
+  </section>
+
+  <!-- 4. Cookies -->
+  <section>
+    <h2><span class="num">04</span> Cookies</h2>
+    <p>Nuestro sitio web utiliza cookies técnicas necesarias para su funcionamiento. No utilizamos cookies de rastreo publicitario propio. Podemos utilizar herramientas de análisis de terceros (como Google Analytics) que emplean sus propias cookies para estadísticas de visitas anónimas.</p>
+    <p>Puedes configurar tu navegador para rechazar las cookies, aunque esto puede limitar algunas funcionalidades del sitio.</p>
+  </section>
+
+  <!-- 5. Con quién compartimos tu información -->
+  <section>
+    <h2><span class="num">05</span> Con quién compartimos tu información</h2>
+    <p>Compartimos los datos estrictamente necesarios con:</p>
+    <ul>
+      <li><strong>Hoteles y proveedores de servicios:</strong> para confirmar y gestionar tu reserva (nombre, fechas, ocupación).</li>
+      <li><strong>Plataformas de distribución (OTA/TBOH/Yanolja):</strong> como parte del proceso de reserva con proveedores hoteleros.</li>
+      <li><strong>Proveedores tecnológicos:</strong> servicios de alojamiento web y bases de datos bajo acuerdos de confidencialidad.</li>
+      <li><strong>Autoridades competentes:</strong> cuando la ley dominicana lo exija.</li>
+    </ul>
+  </section>
+
+  <!-- 6. Seguridad -->
+  <section>
+    <h2><span class="num">06</span> Seguridad de tus datos</h2>
+    <p>Implementamos medidas técnicas y organizativas para proteger tu información contra accesos no autorizados, pérdida o alteración:</p>
+    <ul>
+      <li>Comunicaciones cifradas mediante HTTPS/SSL.</li>
+      <li>Acceso restringido a datos de clientes solo al personal autorizado.</li>
+      <li>No almacenamos datos de tarjetas de crédito en nuestros sistemas.</li>
+      <li>Monitoreo continuo de seguridad en nuestra plataforma.</li>
+    </ul>
+  </section>
+
+  <!-- 7. Retención de datos -->
+  <section>
+    <h2><span class="num">07</span> Retención de datos</h2>
+    <p>Conservamos tus datos mientras mantengas una relación comercial activa con nosotros y, posteriormente, durante el período requerido por la legislación fiscal y comercial de la República Dominicana (generalmente 5 años desde la última transacción).</p>
+    <p>Una vez vencido ese plazo, los datos se eliminan o anonimizan de forma segura.</p>
+  </section>
+
+  <!-- 8. Tus derechos -->
+  <section>
+    <h2><span class="num">08</span> Tus derechos</h2>
+    <p>Como titular de tus datos personales, tienes los siguientes derechos:</p>
+    <div class="rights-grid">
+      <div class="right-card">
+        <div class="right-name">Acceso</div>
+        <p>Solicitar una copia de los datos que tenemos sobre ti.</p>
+      </div>
+      <div class="right-card">
+        <div class="right-name">Rectificación</div>
+        <p>Corregir datos inexactos o desactualizados.</p>
+      </div>
+      <div class="right-card">
+        <div class="right-name">Eliminación</div>
+        <p>Solicitar la eliminación de tus datos cuando ya no sean necesarios.</p>
+      </div>
+      <div class="right-card">
+        <div class="right-name">Oposición</div>
+        <p>Oponerte al uso de tus datos para comunicaciones de marketing.</p>
+      </div>
+      <div class="right-card">
+        <div class="right-name">Portabilidad</div>
+        <p>Recibir tus datos en un formato transferible.</p>
+      </div>
+      <div class="right-card">
+        <div class="right-name">Limitación</div>
+        <p>Solicitar que limitemos el uso de tus datos en ciertos casos.</p>
+      </div>
+    </div>
+    <p style="margin-top:20px;">Para ejercer cualquiera de estos derechos, contáctanos a través de los canales indicados al final de este documento.</p>
+  </section>
+
+  <!-- 9. Menores de edad -->
+  <section>
+    <h2><span class="num">09</span> Menores de edad</h2>
+    <p>Nuestros servicios están dirigidos a personas mayores de 18 años. No recopilamos intencionalmente información personal de menores sin el consentimiento expreso de sus padres o tutores legales.</p>
+    <p>Si eres padre o tutor y crees que tu hijo nos ha proporcionado información personal, contáctanos para proceder a su eliminación.</p>
+  </section>
+
+  <!-- 10. Cambios a esta política -->
+  <section>
+    <h2><span class="num">10</span> Cambios a esta política</h2>
+    <p>Podemos actualizar esta Política de Privacidad periódicamente. Cuando realicemos cambios significativos, lo notificaremos publicando la nueva versión en esta página con la fecha de actualización correspondiente.</p>
+    <p>El uso continuado de nuestros servicios tras la publicación de cambios implica la aceptación de la política actualizada.</p>
+  </section>
+
+  <!-- 11. Contacto -->
+  <section>
+    <h2><span class="num">11</span> Contacto y consultas de privacidad</h2>
+    <p>Para cualquier consulta, solicitud o ejercicio de derechos relacionados con tu privacidad:</p>
+    <div class="contact-box">
+      <div class="contact-item">
+        <span class="label">Empresa</span>
+        <span>Aliun Travel SRL</span>
+      </div>
+      <div class="contact-item">
+        <span class="label">Correo</span>
+        <span>aliuntravelgroup@gmail.com</span>
+      </div>
+      <div class="contact-item">
+        <span class="label">Web</span>
+        <span>aliuntravelsrl.com</span>
+      </div>
+      <div class="contact-item">
+        <span class="label">País</span>
+        <span>República Dominicana</span>
+      </div>
+    </div>
+    <p style="margin-top:20px; font-size:13px; color:#888;">Nos comprometemos a responder tu solicitud en un plazo máximo de 30 días hábiles.</p>
+  </section>
+
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <p style="margin-bottom:8px;">
+    © 2026 <strong>Aliun Travel SRL</strong> · República Dominicana
+    &nbsp;·&nbsp;
+    <a href="/">Inicio</a>
+  </p>
+  <p>Esta política cumple con la legislación vigente de protección de datos de la República Dominicana (Ley 172-13).</p>
+</footer>
+
+</body>
+</html>
