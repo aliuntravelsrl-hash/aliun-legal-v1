@@ -1,6 +1,7 @@
 # Términos y Condiciones Generales — Aliun Travel SRL
-**Versión:** 1.1 — Con cláusula de arbitraje y política de takedown | **Fecha:** 25 Jul 2026
-**Estado:** ⚠️ PENDIENTE APROBACIÓN DIRECTOR — listo para revisión legal tras obtener RNC
+**Versión:** 1.1-DRAFT | **Fecha:** 25 Jul 2026
+**Estado:** 🔶 DRAFT LEGAL — HOLD FOR LEGAL REVIEW
+**Aprobación Director:** Condicionada (commit 3c9692a1) — Art. 12 requiere revisión formal por abogado dominicano
 **Tarea origen:** LEGAL-003 · LEG-002 · LEGAL-01
 
 > Los campos marcados con [COMPLETAR] o [RNC] requieren datos reales.
@@ -70,13 +71,13 @@ Las condiciones específicas de cancelación se informan al cliente en el moment
 ### 5.2 Tabla de penalidades estándar
 | Días antes del check-in | Penalidad |
 |------------------------|-----------|
-| Más de 30 días | Sin cargo (depósito retenido como crédito) |
+| Más de 30 días | Sin cargo (depósito retenido como crédito para futura reserva) |
 | 15 a 30 días | 25% del total de la reserva |
 | 7 a 14 días | 50% del total de la reserva |
 | Menos de 7 días | 100% del total de la reserva (sin reembolso) |
 | No-Show | 100% del total (sin reembolso) |
 
-> **Nota:** Las penalidades específicas del proveedor prevalecen sobre esta tabla estándar cuando sean más restrictivas. Aliun Travel SRL informará al cliente las condiciones exactas en cada cotización.
+> **Notas:** (a) Las penalidades se calculan sobre el **importe total de la reserva** acordado en la Confirmación DOC-2, independientemente del monto ya abonado. (b) Las condiciones específicas del proveedor prevalecen cuando sean más restrictivas. (c) Los días se cuentan a partir de la fecha de check-in del servicio contratado. Aliun Travel SRL informará las condiciones exactas en cada cotización.
 
 ### 5.3 Reembolsos
 Los reembolsos procedentes se procesarán en un plazo máximo de **15 días hábiles** a partir de la aprobación formal. Se realizarán por el mismo medio de pago utilizado en la transacción original.
@@ -125,6 +126,9 @@ Aliun Travel SRL procesará las notificaciones válidas en un plazo máximo de *
 ### 8.3 Notificaciones falsas
 Las notificaciones de infracción falsas o presentadas de mala fe podrán generar responsabilidad legal para quien las presente.
 
+### 8.4 Nota sobre legislación aplicable
+Esta política de notificación opera bajo el marco legal de la República Dominicana. El eventual registro de un agente DMCA ante la U.S. Copyright Office, cuando se realice, no somete a Aliun Travel SRL ni a sus clientes a la jurisdicción exclusiva de la legislación estadounidense en materia de consumo.
+
 ---
 
 ## ARTÍCULO 9. QUEJAS Y DISPUTAS
@@ -155,32 +159,31 @@ Estos Términos se rigen por las leyes de la República Dominicana, específicam
 
 ---
 
-## ARTÍCULO 12. RESOLUCIÓN DE DISPUTAS — ARBITRAJE
-### 12.1 Acuerdo de arbitraje
-**El usuario, al aceptar estos Términos, acuerda que cualquier disputa, reclamación o controversia derivada del uso de los servicios de Aliun Travel SRL — incluyendo disputas sobre la validez, interpretación, ejecución o incumplimiento de estos Términos — será resuelta exclusivamente mediante arbitraje vinculante individual, y no mediante litigio ante tribunales ordinarios, salvo lo establecido en el numeral 12.4.**
+## ARTÍCULO 12. RESOLUCIÓN DE DISPUTAS
+> ⚠️ **ESTADO: HOLD FOR LEGAL REVIEW** — Este artículo requiere revisión formal por abogado dominicano antes de su publicación como cláusula contractual definitiva. No activar como texto público hasta obtener aprobación legal.
 
-### 12.2 Renuncia a demandas colectivas
-**El usuario renuncia expresamente a su derecho de participar en demandas colectivas, acciones de clase o representación de grupos (class action) contra Aliun Travel SRL. El arbitraje se realizará exclusivamente de forma individual.**
+### 12.1 Principio de buena fe
+Las partes procurarán resolver cualquier controversia derivada del uso de los servicios de Aliun Travel SRL mediante comunicación directa y buena fe, haciendo uso de los canales establecidos en el Artículo 9.
 
-### 12.3 Procedimiento
-- El arbitraje se realizará conforme a la **Ley 489-08 de Arbitraje Comercial** de la República Dominicana
-- La sede del arbitraje será la ciudad de **Santo Domingo, República Dominicana**
-- El idioma del procedimiento será el **español**
-- Los costos del árbitro serán asumidos por partes iguales, salvo que el árbitro determine otra distribución
+### 12.2 Derechos irrenunciables del consumidor
+Nada de lo dispuesto en este artículo limita, restringe ni sustituye los derechos irrenunciables del consumidor reconocidos por la Ley 358-05 de Protección al Consumidor y al Usuario, ni el derecho del cliente a acudir a las autoridades y mecanismos de protección previstos por la legislación dominicana aplicable, incluyendo PROCONSUMIDOR.
 
-### 12.4 Excepciones al arbitraje
-No están sujetas a arbitraje las reclamaciones que:
-- Puedan presentarse ante la Dirección General de Defensa al Consumidor (PROCONSUMIDOR) conforme a la Ley 358-05
-- Busquen medidas cautelares urgentes ante la justicia ordinaria para prevenir daños irreparables
-- Involucren montos inferiores a RD$50,000 (pueden resolverse en mediación directa)
+### 12.3 Mecanismos de resolución
+Ante una controversia no resuelta por comunicación directa, el cliente podrá optar por:
+a) Presentar reclamación ante **PROCONSUMIDOR** (Dirección General de Protección al Consumidor), conforme a la Ley 358-05
+b) Acudir a los **tribunales ordinarios** de la República Dominicana
+c) Cuando exista acuerdo válido entre las partes y sea legalmente procedente, someter la controversia a **arbitraje** conforme a la Ley 489-08 de Arbitraje Comercial de la República Dominicana, con sede en Santo Domingo y en idioma español
 
-### 12.5 Plazo para reclamar
-Cualquier reclamación debe presentarse dentro de los **12 meses** siguientes al hecho que la origina, salvo disposición legal en contrario. Vencido este plazo, la reclamación prescribe.
+### 12.4 ⚠️ Cláusula pendiente de revisión legal
+*[COMPLETAR CON ABOGADO DOMINICANO — incluir: condiciones específicas de arbitraje para relaciones B2B, plazo de prescripción de reclamaciones, y validación de compatibilidad con Ley 358-05 y contratos de adhesión]*
+
+### 12.5 Jurisdicción subsidiaria
+En ausencia de acuerdo arbitral válido, las partes se someten a la jurisdicción de los tribunales competentes de la ciudad de **Santo Domingo, República Dominicana**.
 
 ---
 
 ## ARTÍCULO 13. USO DE INTELIGENCIA ARTIFICIAL
-Aliun Travel SRL utiliza herramientas de inteligencia artificial en sus procesos internos de atención al cliente y gestión de reservas. Toda información crítica (precios, disponibilidad, condiciones de cancelación) es verificada por agentes humanos antes de ser comprometida con el cliente. Aliun Travel SRL garantiza que ninguna decisión contractual vinculante es tomada exclusivamente por un sistema automatizado sin intervención humana.
+Aliun Travel SRL utiliza herramientas de inteligencia artificial en sus procesos internos de atención al cliente y gestión de reservas. Toda información crítica (precios, disponibilidad, condiciones de cancelación) es verificada por agentes humanos antes de ser comprometida con el cliente. Aliun Travel SRL garantiza que ninguna decisión contractual vinculante es tomada exclusivamente por un sistema automatizado sin intervención humana. La utilización de herramientas de inteligencia artificial no modifica las obligaciones contractuales de Aliun Travel SRL ni sustituye la responsabilidad de la empresa frente al cliente.
 
 ---
 
@@ -192,7 +195,8 @@ Aliun Travel SRL se reserva el derecho de modificar estos Términos en cualquier
 ## PENDIENTES ANTES DE PUBLICACIÓN FINAL
 - [ ] Completar RNC de la empresa (en trámite)
 - [ ] Confirmar métodos de pago activos (Art. 4.2)
-- [ ] Revisión por abogado dominicano (recomendable post-RNC)
+- [ ] ⚠️ Revisión formal por abogado dominicano — OBLIGATORIO para Art. 12
+- [ ] Validar Art. 5 (penalidades) con condiciones reales de cada proveedor
 - [ ] Aprobación formal del Director
 - [ ] Actualizar versión live en aliuntravelsrl.com/terminos
 
