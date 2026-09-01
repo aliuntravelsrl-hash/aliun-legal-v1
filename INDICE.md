@@ -22,7 +22,17 @@
 |-----------|------|--------|-------|
 | Términos y Condiciones (.docx) | `terminos/TERMINOS-CONDICIONES-v1.0-ESQUELETO.docx` | ⚠️ Esqueleto — pendiente aprobación | LEGAL-003 |
 | Términos y Condiciones (.md) | `terminos/TERMINOS-CONDICIONES-v1.0-ESQUELETO.md` | ⚠️ Esqueleto — pendiente aprobación | LEGAL-003 |
-| Política de Cancelaciones | pendiente crear | 🔲 No iniciado | LEG-002 |
+| Términos y Condiciones v1.1 | `terminos/TERMINOS-CONDICIONES-v1.1.md` | 🔶 Draft Legal (Hold for Review) | LEGAL-003 |
+| Política de Cancelaciones v1.0 | `politica-cancelaciones-v1.md` | 🔶 Draft Legal (Hold for Review) | LEG-002 |
+
+---
+
+## CONTRATOS MARCO (INTERMEDIACIÓN BIDIRECCIONAL)
+
+| Documento | Ruta | Función | Estatus |
+|-----------|------|---------|---------|
+| Contrato Marco Proveedor | `contratos/CONTRATO-MARCO-PROVEEDOR-v1.0.md` | Suministro Inbound Hoteles/Excursiones (Net Rate / Cutoff) | 🔶 DRAFT v1.0 |
+| Contrato Distribución B2B | `contratos/CONTRATO-DISTRIBUCION-AGENCIA-B2B-v1.0.md` | Distribución Outbound Agencias/Mayoristas (Markup / NCF) | 🔶 DRAFT v1.0 |
 
 ---
 
@@ -41,13 +51,22 @@
 aliun-legal-v1/
 ├── INDICE.md                    ← este archivo
 ├── README.md
+├── politica-cancelaciones-v1.md
+├── contratos/
+│   ├── CONTRATO-MARCO-PROVEEDOR-v1.0.md
+│   └── CONTRATO-DISTRIBUCION-AGENCIA-B2B-v1.0.md
 ├── politicas/
 │   └── privacidad/
 │       ├── POLITICA-PRIVACIDAD-v1.0.html  ← fuente canónica
 │       └── POLITICA-PRIVACIDAD-v1.0.md
 ├── terminos/
-│   ├── TERMINOS-CONDICIONES-v1.0-ESQUELETO.docx  ← editar aquí
-│   └── TERMINOS-CONDICIONES-v1.0-ESQUELETO.md
+│   ├── TERMINOS-CONDICIONES-v1.0-ESQUELETO.docx
+│   ├── TERMINOS-CONDICIONES-v1.0-ESQUELETO.md
+│   └── TERMINOS-CONDICIONES-v1.1.md
+└── roadmap/
+    ├── DICTAMEN-LEGAL-OTA-v1.0.md
+    └── F6-LEGAL-ROADMAP.md
+```
 └── roadmap/
     ├── DICTAMEN-LEGAL-OTA-v1.0.md
     └── F6-LEGAL-ROADMAP.md
